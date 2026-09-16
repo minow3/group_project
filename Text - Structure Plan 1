@@ -1,0 +1,34 @@
+TOP IMPORTANCE
+- GAME MANAGER
+  - Runs all managers
+- DISPLAY MANAGER
+  - Keeps track of menus and current contracts, events and player stats
+  - Displays all relevant information
+
+STEP 2
+- Audio Manager
+  - Play and store sounds
+- Randomiser
+  - Create a series of random contracts and events
+- Controls
+  - Primarily mouse based gameplay
+  - Possibly basic keyboard or controller support
+
+STEP 3
+- Player
+  - Stats for each player
+- Artefacts
+  - Folder of artefacts with unqiue executes
+  - Player id integer to track if its chosen and by who
+- Events
+  - Hard coded classes which work similarly to zombies.cpp
+- Contracts
+  - Object which selects a positive and negative effect to give the player
+
+STEP 4 -
+- Setting Reader and Writer
+  - Store setting preferances into txt file
+  - Read the settings when game launches and apply accordingly
+- Leaderboard
+  - Take in co-op score after game is finished
+  - Send score to database and update in game leaderboard
